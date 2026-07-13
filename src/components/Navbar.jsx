@@ -38,10 +38,11 @@ const Navbar = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden sm:flex flex-col leading-tight">
               <span className="font-cinzel text-sm font-bold text-white group-hover:text-amber transition-colors tracking-wider whitespace-nowrap">
-                AM2PM HOTEL & SUITES AUTOGRAPH
+                AM2PM HOTEL &  
               </span>
+              <span className="text-amber text-[8px]">SUITES AUTOGRAPH</span> 
             </div>
           </a>
 
