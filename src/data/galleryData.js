@@ -1,0 +1,51 @@
+import img1 from '../assets/conference-hall.png';
+import img2 from '../assets/main-hall.png';
+import img3 from '../assets/swimming-pool.png';
+import img4 from '../assets/jym.png';
+import img5 from '../assets/lounge.png';
+import img6 from '../assets/club.png';
+import img7 from '../assets/restaurant.png';
+import img8 from '../assets/bar.png';
+
+export const galleryImages = [
+  { 
+    src: img1, 
+    thumb: img1,
+    caption: "Conference Hall" 
+  },
+  { 
+    src: img2, 
+    thumb: img2,
+    caption: "Main Hall" 
+  },
+  { 
+    src: img3, 
+    thumb: img3,
+    caption: "Swimming Pool" 
+  },
+  { 
+    src: img4, 
+    thumb: img4,
+    caption: "Gym" 
+  },
+  { 
+    src: img5, 
+    thumb: img5,
+    caption: "Lounge" 
+  },
+  { 
+    src: img6, 
+    thumb: img6,
+    caption: "Club" 
+  },
+  { 
+    src: img7, 
+    thumb: img7,
+    caption: "Restaurant" 
+  },
+  { 
+    src: img8, 
+    thumb: img8,
+    caption: "Bar" 
+  },
+];
