@@ -6,12 +6,24 @@ import img5 from '../assets/lounge.png';
 import img6 from '../assets/club.png';
 import img7 from '../assets/restaurant.png';
 import img8 from '../assets/bar.png';
+import img9 from '../assets/pool2.png';
+import img10 from '../assets/front-view2.png';
 
 export const galleryImages = [
   { 
     src: img1, 
     thumb: img1,
     caption: "Conference Hall" 
+  },
+  { 
+    src: img10, 
+    thumb: img10,
+    caption: "Front View" 
+  },
+  { 
+    src: img9, 
+    thumb: img9,
+    caption: "Pool Area" 
   },
   { 
     src: img2, 

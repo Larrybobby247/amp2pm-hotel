@@ -51,11 +51,11 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-6">Services</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-white/50 hover:text-amber text-sm transition-colors">Premium Accommodation</a></li>
-              <li><a href="#" className="text-white/50 hover:text-amber text-sm transition-colors">Restaurant & Bar</a></li>
-              <li><a href="#" className="text-white/50 hover:text-amber text-sm transition-colors">Swimming Pool</a></li>
-              <li><a href="#" className="text-white/50 hover:text-amber text-sm transition-colors">Event Hall</a></li>
-              <li><a href="#" className="text-white/50 hover:text-amber text-sm transition-colors">24/7 Security</a></li>
+              <li><a href="#rooms" className="text-white/50 hover:text-amber text-sm transition-colors">Premium Accommodation</a></li>
+              <li><a href="#amenities" className="text-white/50 hover:text-amber text-sm transition-colors">Restaurant & Bar</a></li>
+              <li><a href="#amenities" className="text-white/50 hover:text-amber text-sm transition-colors">Swimming Pool</a></li>
+              <li><a href="#amenities" className="text-white/50 hover:text-amber text-sm transition-colors">Event Hall</a></li>
+              <li><a href="#amenities" className="text-white/50 hover:text-amber text-sm transition-colors">24/7 Security</a></li>
             </ul>
           </div>
 
