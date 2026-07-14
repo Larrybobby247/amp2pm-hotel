@@ -12,11 +12,6 @@ import img11 from '../assets/front-view.png';
 
 export const galleryImages = [
   { 
-    src: img1, 
-    thumb: img1,
-    caption: "Conference Hall" 
-  },
-  { 
     src: img11, 
     thumb: img11,
     caption: "Front View" 
@@ -25,6 +20,11 @@ export const galleryImages = [
     src: img10, 
     thumb: img10,
     caption: "Front View" 
+  },
+  { 
+    src: img1, 
+    thumb: img1,
+    caption: "Conference Hall" 
   },
   { 
     src: img9, 
