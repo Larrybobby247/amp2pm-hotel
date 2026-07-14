@@ -10,7 +10,7 @@ const Amenities = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">Our Facilities</span>
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-4">
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-4">
             OUR AMENITIES
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">Everything you need for a perfect stay, all under one roof.</p>

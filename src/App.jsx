@@ -22,6 +22,7 @@ function App() {
       <main>
         <Hero />
         <CheckAvailability />
+        
         <About />
         <Rooms />
         <Amenities />

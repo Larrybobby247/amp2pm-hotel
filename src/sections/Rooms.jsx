@@ -41,7 +41,7 @@ const Rooms = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">Accommodations</span>
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-4">
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">
             LUXURIOUS ROOM COLLECTION
           </h2>
           <p className="text-navy/60 max-w-2xl mx-auto">Relax in our elegantly designed rooms and suites, thoughtfully crafted to provide comfort, style, and a restful stay.</p>
@@ -66,7 +66,7 @@ const Rooms = () => {
                     href={`https://wa.me/2349036096549?text=I%20want%20to%20book%20the%20${encodeURIComponent(room.name)}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="block w-full bg-amber hover:bg-amber-dark text-white text-center py-3 rounded-lg text-sm font-medium transition-colors flex items-center justify-center gap-2"
+                    className="block w-full bg-navy hover:bg-navy-dark text-white text-center py-3 rounded-lg text-sm font-medium transition-colors flex items-center justify-center gap-2"
                   >
                     <i className="fab fa-whatsapp"></i> Book This Suite
                   </a>

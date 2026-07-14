@@ -13,7 +13,7 @@ const SocialMedia = () => {
       </div>
       <div className="max-w-4xl mx-auto relative z-10 text-center">
         <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">Stay Connected</span>
-        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-6">
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-6">
           FOLLOW US
         </h2>
         <p className="text-white/60 text-lg max-w-2xl mx-auto mb-12">

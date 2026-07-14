@@ -78,13 +78,13 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">Visual Tour</span>
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-4">
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">
             EXPLORE OUR SPACES
           </h2>
           <p className="text-navy/60 max-w-2xl mx-auto">Take a visual journey through our beautifully curated spaces.</p>
         </div>
 
-        <div className="columns-1 md:columns-2 lg:columns-4 gap-4 space-y-4">
+        <div className="columns-1 md:columns-2 lg:columns-2 gap-4 space-y-4">
           {galleryImages.map((image, index) => (
             <div 
               key={index} 

@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">Testimonials</span>
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-4">
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-white mb-4">
             WHAT OUR GUESTS SAY
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">Real experiences from real guests who have stayed at AM2PM HOTEL & SUITES AUTOGRAPH.</p>

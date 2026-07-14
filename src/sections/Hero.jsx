@@ -162,7 +162,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-navy px-6">
+    <section id="hero" className="relative min-h-screen mb-80 lg:mb-50 flex items-center justify-center overflow-hidden bg-navy px-6">
       {/* Background Image */}
       <div className="absolute inset-0 z-[1]">
         <img 
@@ -187,7 +187,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto py-16">
-        <h1 className="font-cinzel text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6 tracking-widest">
+        <h1 className="font-cinzel text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white leading-tight mb-6 tracking-widest">
           <span className="block">AM2PM HOTEL & SUITES AUTOGRAPH</span>
         </h1>
         <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">

@@ -49,13 +49,13 @@ const CheckAvailability = () => {
   ];
 
   return (
-    <section id="check-availability" className="py-20 lg:py-28 px-6 relative overflow-hidden bg-navy">
-      <div className="absolute inset-0 opacity-20">
+    <section id="check-availability" className=" lg:py-28 px-6 absolute w-full top-[90vh] lg:top-[82vh] xl:top-[78vh] overflow-hidden">
+      <div className="absolute inset-0 opacity-20"> 
         <div className="absolute top-0 left-1/4 w-72 h-72 bg-amber/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-amber/5 rounded-full blur-3xl"></div>
       </div>
       <div className="max-w-4xl mx-auto relative z-10">
-        <div className="text-center mb-12">
+        {/* <div className="text-center mb-12">
           <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">Reserve Your Stay</span>
           <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-4">
             CHECK AVAILABILITY
@@ -63,9 +63,9 @@ const CheckAvailability = () => {
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Select your dates and preferred room, then check availability directly via WhatsApp.
           </p>
-        </div>
+        </div> */}
 
-        <div className="glass-dark rounded-2xl p-8 md:p-10 shadow-2xl shadow-navy/20">
+        <div className="glass-dark  rounded-2xl p-8 md:p-10 shadow-2xl  shadow-navy/20">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-3 gap-6">
               <div className="space-y-2">
@@ -116,7 +116,7 @@ const CheckAvailability = () => {
             </div>
             <button type="submit" className="btn-shine w-full bg-amber hover:bg-amber-dark text-white py-4 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-amber/30 flex items-center justify-center gap-2 text-lg">
               <i className="fab fa-whatsapp text-xl"></i>
-              Check Availability on WhatsApp
+              Check Availability
             </button>
           </form>
         </div>

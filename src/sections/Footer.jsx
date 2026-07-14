@@ -15,7 +15,10 @@ const Footer = () => {
                 <img src="https://res.cloudinary.com/yurlcwrp/image/upload/v1783533160/file_0000000056e87243a918601251ac318a_kn1ao2.png" alt="AM2PM Logo" className="w-full h-full object-contain" />
               </div>
               <div>
-                <span className="font-cinzel text-sm font-bold text-white tracking-wider whitespace-nowrap">AM2PM HOTEL & SUITES AUTOGRAPH</span>
+                <span className="font-cinzel text-sm font-bold text-white group-hover:text-amber transition-colors tracking-wider whitespace-nowrap">
+                AM2PM HOTEL &  
+              </span><br/>
+              <span className="text-amber text-[12px]">SUITES AUTOGRAPH</span> 
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6">

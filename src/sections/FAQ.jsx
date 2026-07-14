@@ -30,7 +30,7 @@ const FAQ = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">FAQ</span>
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-4">
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">
             FREQUENTLY ASKED QUESTIONS
           </h2>
           <p className="text-navy/60 max-w-2xl mx-auto">Find answers to common questions about your stay at AM2PM HOTEL & SUITES AUTOGRAPH.</p>

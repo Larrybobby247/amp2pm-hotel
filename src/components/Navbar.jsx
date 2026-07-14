@@ -42,7 +42,7 @@ const Navbar = () => {
               <span className="font-cinzel text-sm font-bold text-white group-hover:text-amber transition-colors tracking-wider whitespace-nowrap">
                 AM2PM HOTEL &  
               </span>
-              <span className="text-amber text-[8px]">SUITES AUTOGRAPH</span> 
+              <span className="text-amber text-[12px]">SUITES AUTOGRAPH</span> 
             </div>
           </a>
 

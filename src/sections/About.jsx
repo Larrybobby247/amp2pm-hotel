@@ -1,6 +1,7 @@
 import img1 from "../assets/front-view.png";
 import img2 from "../assets/presidential1.png";
 import img3 from "../assets/swimming-pool.png";
+import img4 from "../assets/generator.png";
 
 const About = () => {
   const features = [
@@ -17,7 +18,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="text-amber font-semibold text-sm uppercase tracking-widest mb-4 block">About Us</span>
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-amber mb-6 leading-tight">
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6 leading-tight">
               WHERE COMFORT MEETS TIMELESS LUXURY AND THE ART OF EXCEPTIONAL HOSPITALITY.
             </h2>
             <p className="text-navy/70 text-lg leading-relaxed mb-6">
@@ -55,6 +56,19 @@ const About = () => {
                       <p className="text-white/60 text-sm">Accessible Entrance</p>
                     </div>
                   </div>
+                  <div className="tilt-card relative rounded-2xl overflow-hidden shadow-xl bg-navy aspect-[3/4] group">
+                    <img 
+                      src={img4}
+                      alt="Hotel Exterior" 
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                    <div className="card-shine rounded-2xl"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy/80 to-transparent"></div>
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <p className="text-white font-playfair text-lg">24/7 Electricity</p>
+                      <p className="text-white/60 text-sm">With Standby Generator</p>
+                    </div>
+                  </div>
                 </div>
                 <div className="space-y-4">
                   <div className="tilt-card relative rounded-2xl overflow-hidden shadow-xl bg-navy aspect-[3/4] group">
@@ -82,6 +96,7 @@ const About = () => {
                       <p className="text-white font-playfair text-lg">Sparkling Pool</p>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
