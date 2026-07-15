@@ -172,8 +172,8 @@ const Hero = () => {
           alt="AM2PM Hotel Building" 
           className="w-full h-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/70 via-navy/50 to-navy z-[2]"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/60 via-transparent to-navy/60 z-[2]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-navy/50 via-navy/30 to-navy z-[2]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/40 via-transparent to-navy/40 z-[2]"></div>
       </div>
 
       {/* Three.js Canvas */}
