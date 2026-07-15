@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
+import frontview from '../assets/front-view.png';
+
 const Hero = () => {
   const canvasRef = useRef(null);
   const particleCanvasRef = useRef(null);
@@ -166,7 +168,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-[1]">
         <img 
-          src="https://res.cloudinary.com/yurlcwrp/image/upload/v1783533174/file_000000002d0872468b32dde7e1340e9f_oukrpo.png" 
+          src={frontview}
           alt="AM2PM Hotel Building" 
           className="w-full h-full object-cover opacity-40"
         />

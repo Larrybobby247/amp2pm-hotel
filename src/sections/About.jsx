@@ -1,5 +1,5 @@
 import img1 from "../assets/front-view.png";
-import img2 from "../assets/presidential1.png";
+import img2 from "../assets/presidential5.png";
 import img3 from "../assets/swimming-pool.png";
 import img4 from "../assets/generator.png";
 

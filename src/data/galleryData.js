@@ -9,6 +9,7 @@ import img8 from '../assets/bar.png';
 import img9 from '../assets/pool2.png';
 import img10 from '../assets/front-view2.png';
 import img11 from '../assets/front-view.png';
+import img12 from '../assets/front-view3.png';
 
 export const galleryImages = [
   { 
@@ -19,6 +20,11 @@ export const galleryImages = [
   { 
     src: img10, 
     thumb: img10,
+    caption: "Front View" 
+  },
+  { 
+    src: img12, 
+    thumb: img12,
     caption: "Front View" 
   },
   { 
