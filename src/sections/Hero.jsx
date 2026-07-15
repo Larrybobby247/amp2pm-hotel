@@ -170,10 +170,10 @@ const Hero = () => {
         <img 
           src={frontview}
           alt="AM2PM Hotel Building" 
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/50 via-navy/30 to-navy z-[2]"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-navy/40 via-transparent to-navy/40 z-[2]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-navy/40 via-navy/30 to-navy z-[2]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/40 via-transparent to-navy/30 z-[2]"></div>
       </div>
 
       {/* Three.js Canvas */}
